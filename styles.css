@@ -1,0 +1,14 @@
+body{
+    background-color: lightcyan;
+}
+h1{
+    color: lightcoral;
+}
+
+.friend{
+    background-color: lightseagreen;
+}
+
+.friend p{
+    text-transform: uppercase;
+}
