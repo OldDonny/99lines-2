@@ -27,6 +27,7 @@ addEventListener('click',function(){
        
         var friend=document.createElement('div');
         var header=document.createElement('h3');
+        friend.style.backgroundColor="cyan"
         header.style.textTransform="uppercase";
         document.body.appendChild(friend);
         friend.appendChild(header);
@@ -38,6 +39,7 @@ addEventListener('click',function(){
     
         for (var i= 99; i >= 3; i--){
            var song=document.createElement('p');
+           
            friend.appendChild(song);
            fsong=document.createTextNode(i+' lines of code in the file, ' + i + ' lines of code; ' + friends[f] + ' strikes one out, clears it all out, '+ (i-1) + ' lines of code in the file');
            song.appendChild(fsong);
